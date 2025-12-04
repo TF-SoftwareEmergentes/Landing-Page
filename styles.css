@@ -109,6 +109,24 @@ header {
     background: #333;
 }
 
+.btn-try-now {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: transform 0.2s, box-shadow 0.3s;
+    font-weight: 500;
+}
+
+.btn-try-now:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(102, 126, 234, 0.4);
+}
+
 /* Hero Section */
 .hero {
     padding: 140px 0 80px;
@@ -189,6 +207,27 @@ header {
 .btn-secondary:hover {
     transform: translateY(-2px);
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.btn-try-now-hero {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border: none;
+    padding: 14px 35px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: transform 0.2s, box-shadow 0.3s;
+}
+
+.btn-try-now-hero:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 25px rgba(102, 126, 234, 0.4);
 }
 
 .play-icon {
